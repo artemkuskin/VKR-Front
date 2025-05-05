@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3b4562f-0680-48aa-914a-16f3b6cb0644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-core/remotes.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-staff/src/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-staff/src/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-staff/src/pages/StaffPage/StaffPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-staff/src/pages/StaffPage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-staff/src/utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/SidebarMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/SidebarMenuItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/akuskin/biig-vue-mf-audit",
+    "last_opened_file_path": "C:/Users/akuskin/VKR-Front/vue-core/src/components/Sidebar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +45,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akuskin\VKR-Front\vue-core\src\components\Sidebar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\akuskin\VKR-Front\vue-staff\src" />
     </key>
@@ -74,6 +77,7 @@
       <updated>1746303784878</updated>
       <workItem from="1746303786307" duration="4685000" />
       <workItem from="1746391419085" duration="855000" />
+      <workItem from="1746469157830" duration="2652000" />
     </task>
     <servers />
   </component>

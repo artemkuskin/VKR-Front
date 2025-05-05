@@ -16,11 +16,11 @@ export default defineConfig(({ mode }) => {
       federation({
         name: "host",
         remotes: {
-          vue_documents: `${process.env.VUE_DOCUMENTS ?? "$VUE_DOCUMENTS"}/assets/remoteEntry.js`,
-          vue_main: `${process.env.VUE_MAIN ?? "$VUE_MAIN"}/assets/remoteEntry.js`,
-          vue_news: `${process.env.VUE_NEWS ?? "$VUE_NEWS"}/assets/remoteEntry.js`,
-          vue_profile: `${process.env.VUE_PROFILE ?? "$VUE_PROFILE"}/assets/remoteEntry.js`,
-          vue_staff: `${process.env.VUE_STAFF ?? "$VUE_STAFF"}/assets/remoteEntry.js`,
+          // vue_documents: `${process.env.VUE_DOCUMENTS ?? "$VUE_DOCUMENTS"}/assets/remoteEntry.js`,
+          // vue_main: `${process.env.VUE_MAIN ?? "$VUE_MAIN"}/assets/remoteEntry.js`,
+          // vue_news: `${process.env.VUE_NEWS ?? "$VUE_NEWS"}/assets/remoteEntry.js`,
+          // vue_profile: `${process.env.VUE_PROFILE ?? "$VUE_PROFILE"}/assets/remoteEntry.js`,
+          // vue_staff: `${process.env.VUE_STAFF ?? "$VUE_STAFF"}/assets/remoteEntry.js`,
         },
         shared: [
           "vue",
