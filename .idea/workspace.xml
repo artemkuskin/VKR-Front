@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3b4562f-0680-48aa-914a-16f3b6cb0644" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/Sidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/SidebarMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/SidebarMenuItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-core/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-core/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/src/components/Sidebar/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/src/components/Sidebar/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/src/components/Sidebar/SidebarMenu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-core/src/components/Sidebar/SidebarMenuItem.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-core/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue-core/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-main/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vue-main/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/akuskin/VKR-Front/vue-core/src/components/Sidebar",
+    "last_opened_file_path": "C:/Users/akuskin/biig-vue-mf-history",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +79,8 @@
       <workItem from="1746303786307" duration="4685000" />
       <workItem from="1746391419085" duration="855000" />
       <workItem from="1746469157830" duration="2652000" />
+      <workItem from="1746730968639" duration="24000" />
+      <workItem from="1746800147756" duration="7016000" />
     </task>
     <servers />
   </component>

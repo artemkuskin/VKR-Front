@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import  Sidebar from './components/Sidebar/Sidebar.vue'
+import  Header from './components/Header/Header.vue'
 
 </script>
 
 <template>
 
   <div class="App">
-<!--    <Header />-->
+   <Header />
     <div class="App__Content">
       <Sidebar />
       <div :class="'App-Content__Auth'">
@@ -26,7 +27,7 @@ import  Sidebar from './components/Sidebar/Sidebar.vue'
 
   &__Content
     display: flex
-    height: calc(100vh - 100px)
+    height: calc(100vh)
 
   &-Content
 

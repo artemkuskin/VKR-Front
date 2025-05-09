@@ -1,7 +1,7 @@
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig, loadEnv } from "vite"
-
+import topLevelAwait from "vite-plugin-top-level-await"
 import federation from "@originjs/vite-plugin-federation"
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
@@ -16,19 +16,22 @@ export default defineConfig(({ mode }) => {
       federation({
         name: "host",
         remotes: {
-          // vue_documents: `${process.env.VUE_DOCUMENTS ?? "$VUE_DOCUMENTS"}/assets/remoteEntry.js`,
-          // vue_main: `${process.env.VUE_MAIN ?? "$VUE_MAIN"}/assets/remoteEntry.js`,
-          // vue_news: `${process.env.VUE_NEWS ?? "$VUE_NEWS"}/assets/remoteEntry.js`,
-          // vue_profile: `${process.env.VUE_PROFILE ?? "$VUE_PROFILE"}/assets/remoteEntry.js`,
-          // vue_staff: `${process.env.VUE_STAFF ?? "$VUE_STAFF"}/assets/remoteEntry.js`,
+          vue_documents: `http://localhost:4178/assets/remoteEntry.js`,
+          vue_main: `http://localhost:4174/assets/remoteEntry.js`,
+          vue_news: `http://localhost:4175/assets/remoteEntry.js`,
+          vue_profile: `http://localhost:4177/assets/remoteEntry.js`,
+          vue_staff: `http://localhost:4176/assets/remoteEntry.js`,
         },
         shared: [
           "vue",
           "pinia",
-          "vue-router",
-          "axios"
+          "vue-router"
         ],
       }),
+      topLevelAwait({
+        promiseExportName: "__tla",
+        promiseImportName: (i) => `__tla_${i}`,
+    }),
     ],
     resolve: {
       alias: {
