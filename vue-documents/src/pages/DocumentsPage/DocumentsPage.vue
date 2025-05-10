@@ -44,6 +44,7 @@
     background-color: #1f1f1f
     color: #ffffff
     padding: 32px
+    height: 100%
   
     h1 
       font-size: 28px

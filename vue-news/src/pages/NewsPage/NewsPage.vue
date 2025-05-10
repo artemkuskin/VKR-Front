@@ -7,7 +7,7 @@
           v-for="news in newsList"
           :key="news.id"
         >
-          <div class="news-card__image"></div>
+          <img class="news-card__image" :src="news.image" />
           <div class="news-card__content">
             <h3>{{ news.title }}</h3>
             <p>{{ news?.description }}</p>
@@ -26,18 +26,21 @@
             title: "Заголовок первой новости",
             description: "Описание первой новости. Некоторый пример текста, который может находиться в этом блоке новости.",
             date: "23 апреля 2024",
+            image: '/news2.jpg'
           },
           {
             id: 2,
             title: "Заголовок второй новости",
             description: "Описание второй новости. Некоторый пример текста, который может находиться в этом блоке новости.",
             date: "23 апреля 2024",
+             image: '/news3.jpg'
           },
           {
             id: 3,
             title: "Заголовок третьей новости",
             description: "Описание третьей новости. Некоторый пример текста, который может находиться в этом блоке новости.",
             date: "22 апреля 2024",
+             image: '/news4.jpg'
           },
         ]   
 
@@ -48,6 +51,7 @@
     background-color: #1f1f1f
     padding: 24px
     color: #ffffff
+    height: 100%
   
     &__title 
       font-size: 20px

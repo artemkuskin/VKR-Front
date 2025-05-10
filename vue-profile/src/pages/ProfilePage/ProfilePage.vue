@@ -1,7 +1,7 @@
 <template>
     <div class="profile-page">
       <div class="profile-card">
-        <div class="profile-avatar"></div>
+        <img class="profile-avatar" src="/image.png"/>
         <div class="profile-info">
           <h2>{{ employee.name }}</h2>
           <p class="position">{{ employee.position }}</p>
@@ -17,7 +17,7 @@
 
         const employee = {
           id: 1,
-          name: "Иван Петров",
+          name: "Анна Иванова",
           position: "Руководитель отдела продаж",
           email: "ivan.petrov@company.ru",
           phone: "+7 (912) 345-67-89",
@@ -32,14 +32,15 @@
     color: #ffffff
     display: flex
     justify-content: center
+    height: 100%
   
   
   .profile-card 
     background-color: #2b2b2b
     border-radius: 16px
     padding: 24px
-    max-width: 600px
     width: 100%
+    height: 300px
     display: flex
     gap: 24px
   

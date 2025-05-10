@@ -4,11 +4,10 @@
         <button class="header__menu-btn" @click="$emit('toggleSidebar')">
           ☰
         </button>
-        <h1 class="header__title">Корпоративный Портал</h1>
       </div>
       <div class="header__right">
         <RouterLink to="/profile" class="header__profile">
-          <img src="" alt="Avatar" class="header__avatar" />
+          <img src="/image.png" alt="Avatar" class="header__avatar" />
           <span class="header__username">Анна Иванова</span>
         </RouterLink>
       </div>

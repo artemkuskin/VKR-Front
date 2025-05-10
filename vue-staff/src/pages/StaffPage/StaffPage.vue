@@ -1,11 +1,11 @@
 <script setup lang="ts">
  
 const employees = [
-   { id: 1, name: "Иван Петров", position: "Руководитель отдела продаж" },
-   { id: 2, name: "Анна Смирнова", position: "Бизнес-аналитик" },
-   { id: 3, name: "Дмитрий Орлов", position: "Разработчик фронтенда" },
-   { id: 4, name: "Мария Кузнецова", position: "HR-менеджер" },
-   { id: 5, name: "Алексей Морозов", position: "Системный администратор" },
+   { id: 1, name: "Иван Петров", position: "Руководитель отдела продаж", image: "/men3.jpg" },
+   { id: 2, name: "Анна Смирнова", position: "Бизнес-аналитик", image: "/1538985367423.png" },
+   { id: 3, name: "Дмитрий Орлов", position: "Разработчик фронтенда" , image: "/men1.jpeg"  },
+   { id: 4, name: "Мария Кузнецова", position: "HR-менеджер" , image: "/i.webp"  },
+   { id: 5, name: "Алексей Морозов", position: "Системный администратор", image:"/men2.jpg"  },
  ]
 
 
@@ -23,7 +23,7 @@ const employees = [
           :key="employee.id"
         
         >
-          <div class="employee-card__avatar"></div>
+          <img class="employee-card__avatar" :src="employee.image"/>
           <div class="employee-card__info">
             <h3>{{ employee.name }}</h3>
             <p>{{ employee?.position }}</p>
@@ -39,6 +39,7 @@ const employees = [
     background-color: #1f1f1f
     padding: 24px
     color: #ffffff
+    height: 100%
   
     &__title 
       font-size: 20px

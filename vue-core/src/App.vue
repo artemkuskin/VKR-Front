@@ -15,7 +15,7 @@ import  Header from './components/Header/Header.vue'
         <RouterView />
       </div>
     </div>
-<!--    <Footer  />-->
+
   </div>
 </template>
 
@@ -39,5 +39,8 @@ import  Header from './components/Header/Header.vue'
     &__Auth
       overflow: hidden
       width: 100%
+
+      &:first-child
+        height: 100%
 </style>
 

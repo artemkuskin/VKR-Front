@@ -4,7 +4,7 @@
         <h2 class="home__title">Новости</h2>
         <div class="home__news">
           <div class="card news-card">
-            <div class="img-placeholder"></div>
+            <img class="img-placeholder" src="/news.jpg" />
             <h3>Заголовок новости</h3>
             <p>Краткое описание новости, чтобы заинтересовать пользователя.</p>
             <span class="date">24 апреля 2024</span>
@@ -32,6 +32,7 @@
     color: #fff;
     padding: 24px;
     font-family: 'Segoe UI', sans-serif;
+    height: 100%;
   
     .home__section {
       margin-bottom: 32px;

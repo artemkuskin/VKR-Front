@@ -1,6 +1,6 @@
 <template>
   <aside class="sidebar">
-    <div class="sidebar__logo">Корпоративный Портал</div>
+    <img class="sidebar__logo" src="/logo.jpg"/>
     <nav class="sidebar__nav">
       <RouterLink
         v-for="item in items"
@@ -63,9 +63,9 @@ $active-bg: #e6edff;
   &__logo {
     font-size: 18px;
     font-weight: 700;
-    padding: 20px;
     color: $link-color;
     border-bottom: 1px solid $border-color;
+    height: 130px;
   }
 
   &__nav {
